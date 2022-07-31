@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
 	/* background: #564e47 url('../img/game-wrap-bg.png'); */
-  background: black;
+  background-color: black;
 	color: #9A998E;
   font-size: 14px;
   line-height: 1.2em;
