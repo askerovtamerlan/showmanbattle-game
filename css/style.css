@@ -74,8 +74,61 @@ h3 {
   border-radius: 0;
   color: #E0E0D5;
 }
+/* edit */
+
+#game-setup {
+  /* display: none; */
+  width: 572px;
+  height: 350px;
+  margin: 0 auto;
+  background: transparent url('../img/game-start-bg.jpg') center center no-repeat;
+  position: relative;
+
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+
+#game-setup > h1 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding-left: 30px;
+  display: block;
+  font-size: 14px;
+  font-weight: medium;
+  color: black;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#game-setup > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#game-setup > div > div {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-setup > div > div:last-child() {
+  width: 50%;
+}
+
+#game-setup > div > div > img {
+  /* width: 69px; */
+  /* height: 75px; */
+  margin: 5px 0;
+  /* display: block; */
+  /* margin: auto; */
+}
+
+/* edit */
 
 #game-wrap {
+  display: none;
 	width: 572px;
   height: 350px;
   margin: 0 auto;
@@ -490,6 +543,9 @@ h3 {
       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: medium;
+      text-transform: uppercase;
     }
       #message > div p {
         font-size: 16px;
