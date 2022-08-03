@@ -129,6 +129,10 @@ h3 {
   /* margin: auto; */
 }
 
+#game-setup > div > div #img-3, #img-4, #img-7, #img-8 {
+  transform: scaleX(-1);
+}
+
 /* edit */
 
 #game-wrap {
