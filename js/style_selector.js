@@ -24,12 +24,12 @@
 //     console.log(wolf1)
 //   })();
 
-let wolf0 = document.querySelector('#game-wrap[data-bx="0"] .wolf')
+// let wolf0 = document.querySelector('#game-wrap[data-bx="0"] .wolf')
 // let wolf1 = document.querySelector('#game-wrap[data-bx="1"] .wolf')
-let head = sessionStorage.getItem("name")
-console.log(head)
+// let head = sessionStorage.getItem("name")
+// console.log(head)
 
-wolf0.setAttribute('style', `background : transparent url('../showmanbattle-game/img/wolf/wolf-p-0-${head}') center center no-repeat` )
+// wolf0.setAttribute('style', `background : transparent url('../showmanbattle-game/img/wolf/wolf-p-0-${head}') center center no-repeat` )
 // wolf0.style.background = `transparent url('../img/wolf/wolf-p-0-head-1') center center no-repeat`
 // wolf1.style.background = `transparent url('../img/wolf/wolf-p-1-head-1') center center no-repeat`
 
